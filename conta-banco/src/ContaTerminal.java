@@ -28,6 +28,7 @@ public class ContaTerminal {
         //Retorno do sistema
         System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + numero + " e seu saldo R$" + saldo + " já está disponível para saque! ");
 
+        scanner.close();
 
 
 
